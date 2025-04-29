@@ -1,5 +1,7 @@
 -- INSTRUÇÕES DE CONFIGURAÇÃO
-1. No arquivo appsettings.json, defina sua string de conexão com o banco de dados
+1. No arquivo appsettings.json, defina sua string de conexão com o banco de dados. OBS.: se o banco NÃO for SQL Server, é necessário alterar esse trecho de Program.cs:
+![image](https://github.com/user-attachments/assets/08ea3708-b500-406f-87d5-6b98f0c91775)
+
 2. No menu superior do Visual Studio, vá em Ferramentas > Gerenciador de Pacotes do NuGet > Console do gerenciador de pacotes
 3. No terminal do console, insira o comando abaixo, ele cria o banco por meio das Migrations
 ```json
